@@ -4,7 +4,7 @@ const Cartiu2 = () => {
   return (
     <div><div
     id="CARTRoot"
-    className="overflow-hidden bg-white flex flex-col justify-between gap-[288px] w-full"
+    className="overflow-hidden bg-white flex flex-col justify-between gap-[288px] w-full flex "
   >
     <div className="flex flex-col justify-between gap-32 ml-0 mr-1">
       <div className="flex flex-col gap-24">
@@ -45,7 +45,7 @@ const Cartiu2 = () => {
                 <div className="flex flex-col gap-8 w-2/3">
                   <div className="flex flex-col gap-2 items-start">
                     <div className="self-stretch flex flex-col justify-between gap-1 items-start">
-                      <div className="text-xl font-['Inter'] leading-[30px] w-full">
+                      <div className="text-x font-['Inter'] leading-[30px] w-full">
                         Daisy Green Silk Fabricated Saree With Mirror Work
                       </div>
                       <div className="font-['Inter'] leading-[24px] text-[#7c7c7c]">
@@ -95,7 +95,7 @@ const Cartiu2 = () => {
               </div>
             </div>
           </div>
-          <div className="self-end flex flex-col mt-[108px] gap-16 w-2/5">
+          <div className="self-end flex flex-col mt-[108px] gap-16 w-2/5 ">
             <div className="flex flex-col gap-10">
               <div className="border-solid border-[rgba(124,_124,_124,_0.8)] flex flex-row justify-between items-center pb-8 pl-8 pr-16 border rounded-[20px]">
                 <div className="flex flex-col mt-8 gap-8 w-1/2 items-start">
@@ -142,7 +142,7 @@ const Cartiu2 = () => {
               </div>
             </div>
             <div className="bg-[#032b2a] flex flex-col justify-center mr-px h-16 shrink-0 items-center rounded-[20px]">
-              <div className="text-2xl font-['Inter'] font-semibold leading-[36px] text-white">
+              <div className="text-2xl font-['Inter'] font-semibold leading-[36px] text-white ">
                 Checkout
               </div>
             </div>
