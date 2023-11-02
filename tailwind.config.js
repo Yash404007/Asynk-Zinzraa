@@ -11,6 +11,9 @@ export default {
       'inria': ['Inria Serif'],
       'lora': ['Lora'],
       'noto': ['Noto Serif'],
+      'nunito': ['Nunito'],
+      'inter': ['Inter'],
+      'montserrat': ['Montserrat'],
 
 
     },
