@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth, fireDB } from '../../fireabase/FirebaseConfig';
 import { Timestamp, addDoc, collection } from 'firebase/firestore';
-
+import Loader from '../../components/loader/Loader';
 
 function Signup() {
     const [name, setName] = useState("");
@@ -13,7 +13,7 @@ function Signup() {
     const [password, setPassword] = useState("");
 
     const context = useContext(myContext);
-    
+    const { loading, setLoading } = context;
 
     const signup = async () => {
         setLoading(true)
@@ -38,11 +38,11 @@ function Signup() {
             setName("");
             setEmail("");
             setPassword("");
-            
+            setLoading(false)
             
         } catch (error) {
             console.log(error)
-            
+            setLoading(false)
         }
     }
 
