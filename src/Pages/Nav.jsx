@@ -19,6 +19,7 @@ export default function Navbar() {
     window.location.href = "/"
   }
 
+  const cartItems = useSelector((state) => state.cart)
 
   return (
     <div className="bg-white sticky top-0 z-50  "  >
